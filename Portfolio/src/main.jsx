@@ -1,29 +1,31 @@
-// import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx';
-import './index.css';
 
 // brining in the required import from 'react-route-dom
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // importing the page components
 import Home from './pages/Home.jsx';
-// import Error from './pages/Error.jsx'
+import Error from './pages/Error.jsx'
+import Portfolio from './card/CardBody.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 // defining the accessible routes and which components respond to which URL. 
-
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    // errorElement: <Error />,
+    errorElement: <Error />,
     children: [
       {
         index: true,
         element: <Home />,
       },
+      {
+        path: '/portfolio',
+        element: <Portfolio />
+      }
     ],
   },
 ]);
