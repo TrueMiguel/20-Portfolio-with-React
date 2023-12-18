@@ -1,3 +1,4 @@
+// component for projects card
 import { useState, useEffect } from 'react';
 
 // imported the DB

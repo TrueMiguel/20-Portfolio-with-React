@@ -1,3 +1,4 @@
+// page for if wrong destination is put in
 import { useRouteError } from 'react-router-dom';
 
 export default function ErrorPage() {
