@@ -1,13 +1,14 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx';
+import './App.css'
 
 // brining in the required import from 'react-route-dom
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // importing the page components
-import Home from './pages/Home.jsx';
+import Home from './pages/About.jsx';
 import Error from './pages/Error.jsx'
-import Portfolio from './card/CardBody.jsx'
+import Portfolio from './card/CardPortfolio.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 

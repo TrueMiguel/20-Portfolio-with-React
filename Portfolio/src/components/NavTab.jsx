@@ -6,6 +6,7 @@ function NavTabs() {
 
     return (
 
+        // had to adjust the nav bar since there was issues with the styling. 
         <ul className='nav flex-column flex-sm-row align-items-center h-auto pe-4'>
             <li className='nav-item'>
                 <Link
