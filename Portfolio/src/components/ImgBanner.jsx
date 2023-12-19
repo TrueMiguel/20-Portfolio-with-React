@@ -1,4 +1,4 @@
-
+// image banner to be under the top page break
 function ImgBanner() {
     return (
         <section className="banner">

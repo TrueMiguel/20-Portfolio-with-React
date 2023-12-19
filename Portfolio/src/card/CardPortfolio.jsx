@@ -7,7 +7,8 @@ import DB from '../database/db'
 // creating how each card will show up.
 export default function Card() {
     const cardStyle = {
-        width: "50rem",
+        height: '40vh',
+        width: '80vh',
     };
 
     const [projects, setProjects] = useState([]);
@@ -20,16 +21,30 @@ export default function Card() {
     console.log(projects)
 
     return (
-        <div className='container flex-box'>
-            {projects.map((project) => (
+        <div className='d-flex justify-content-center'>
+            <div className='container row justify-content-center'>
+                {projects.map((project) => (
 
-            <div className='card p-4' style={cardStyle} key={project.id}>
-                <a href={project.site}>
-                    <h2><b>{project.name}</b></h2>
-                    <p><b>{project.builtWith}</b></p>
-                </a>
+                <div 
+                    className='card p-4 col-6 justify-content-center' style={{
+                        ...cardStyle, 
+                        transition: 'opacity 0.3s ease-in-out',
+                        backgroundImage: `url(${project.image})`,
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat'
+                    }} 
+                    key={project.id} 
+                    >
+                    <div>  
+                    <a href={project.site}>
+                        <h2 style={{ }}><b>{project.name}</b></h2>
+                        <p style={{ }}><b>{project.builtWith}</b></p>
+                    </a>
+                    </div>
+                </div>
+                
+                ))}
             </div>
-            ))}
-        </div>
+        </div> 
     );
 }

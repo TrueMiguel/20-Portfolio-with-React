@@ -2,10 +2,20 @@
 
 function pagefooter() {
     return (
-        <section>
-            <h4>Contact Me</h4>
-            <p>Email: miguel.maldonado5802@gmail.com</p>
-            <p>GitHub: https://github.com/TrueMiguel</p>
+        <section className="pt-5">
+            <h4 className="text-center pb-4">Contact Me</h4>
+            <div className="d-flex justify-content-evenly">
+
+            <p className="d-flex">Email: &nbsp; {" "} 
+                <a href="mailto:miguel.maldonado5802@gmail.com" target="_blank" rel="noopener noreferrer" className="linktxt">MiguelMaldonado5802@gmail.com </a>
+            </p>
+
+            <p className="d-flex">GitHub: &nbsp; {" "} 
+                <a href="https://github.com/TrueMiguel" target="_blank" rel="noopener noreferrer" className="linktxt">
+                <i className="fab fa-github"> </i> My GitHub Profile
+                </a>
+            </p>
+            </div>
         </section>
     )
 }

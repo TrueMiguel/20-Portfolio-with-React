@@ -7,6 +7,9 @@ import Nav from './components/NavTab'
 // importing a banner to be at to top of every page under the page break
 import Banner from './components/ImgBanner'
 
+// importing footer
+import Footer from './pages/Footer'
+
 function App() {
  
   // using Nav and Outlet for navigation between pages.
@@ -23,6 +26,9 @@ function App() {
         <main className="mx-3 ">
           <Outlet />
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </div>
   );

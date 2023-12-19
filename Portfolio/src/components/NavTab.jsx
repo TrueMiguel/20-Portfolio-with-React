@@ -24,6 +24,14 @@ function NavTabs() {
                 <h3>Portfolio</h3>
                 </Link>
             </li>
+            <li className='nav-item'>
+                <Link
+                to="/contact"
+                className={currentPage === '/contact' ? 'nav-link active' : 'nav-link'}
+                >
+                <h3>Contact</h3>
+                </Link>
+            </li>
         </ul>
     );
 }
