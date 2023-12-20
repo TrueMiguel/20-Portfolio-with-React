@@ -27,7 +27,7 @@ export default function Contact() {
     }
     
     return(
-        <div className='d-flex justify-content-center'>
+        <div className='d-flex justify-content-center pt-5'>
             <form className='justify-content-center' onSubmit={handleSubmit} style={{width: '50%'}} >
             <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label" style={{...styleCard}}>Email address</label>

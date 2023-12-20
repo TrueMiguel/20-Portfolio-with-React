@@ -21,7 +21,7 @@ export default function Card() {
     console.log(projects)
 
     return (
-        <div className='d-flex justify-content-center'>
+        <div className='d-flex justify-content-center pt-5'>
             <div className='container row justify-content-center'>
                 {projects.map((project) => (
 

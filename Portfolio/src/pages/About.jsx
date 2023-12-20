@@ -7,8 +7,8 @@ export default function About() {
             <h1 className="d-flex align-items-center">About Page</h1>
             <img className="picture d-flex rounded-circle" src="images/Miguel.jpg" alt="Miguel Picture" />
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>In recent years, I've embarked on a self-taught coding journey, and six months ago, I took a significant step forward by enrolling in an accelerated coding bootcamp focused on full-stack web development. The decision to dive into this field fills me with pride and happiness—I've found my passion.</p>
+            <p>Looking ahead, I'm excited about the array of apps and video games I have brewing in my mind. Now armed with a solid foundation in coding, I'm eager to turn these ideas into reality and bring them to life</p>
         </div>
     );
 }
