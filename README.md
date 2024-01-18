@@ -45,7 +45,7 @@ React, JSON, JavaScript, CSS, Vite.
 ## Deployment Location <a id="deployment_location"></a>
 
 <!-- Deployment Location -->
-Live site: https://aquamarine-taffy-04444f.netlify.app/
+Live site: https://miguel-m-portfolio.netlify.app/
 
 Github: https://github.com/TrueMiguel/20-Portfolio-with-React
 
