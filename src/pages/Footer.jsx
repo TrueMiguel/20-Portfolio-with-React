@@ -15,6 +15,11 @@ function pagefooter() {
                 <i className="fab fa-github"> </i> My GitHub Profile
                 </a>
             </p>
+
+            <p className="d-flex">LinkedIn: &nbsp; {" "} 
+                <a href="https://www.linkedin.com/in/miguel-maldonado-ab52602ab/" target="_blank" rel="noopener noreferrer" className="linktxt"> My LinkedIn Page
+                </a>
+            </p>
             </div>
         </section>
     )

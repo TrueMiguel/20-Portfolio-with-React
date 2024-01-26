@@ -31,7 +31,7 @@ header {
   color: var(--first-color);
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, li, a {
   font-family: 'Courgette', cursive;
 }
 
@@ -68,8 +68,12 @@ h1, h2, h3, h4, p {
 
 .card {
   text-shadow: 
-    -2px -2px 0 var(--fifth-color),
-    2px -2px 0 var(--fifth-color), 
-    -2px 2px 0 var(--fifth-color), 
-    2px 2px 0 var(--fifth-color);
+    -2px -2px 0 var(--first-color),
+    2px -2px 0 var(--first-color), 
+    -2px 2px 0 var(--first-color), 
+    2px 2px 0 var(--first-color);
+}
+
+.line {
+  color: var(--forth-color)
 }

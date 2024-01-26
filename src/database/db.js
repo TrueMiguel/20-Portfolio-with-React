@@ -12,7 +12,7 @@ export default [
         "id": 2,
         "name": "READ.ME Generator",
         "alt-name": "Read.me generator",
-        "built-with": "JavaScript, Node, and Inquirer",
+        "builtWith": "JavaScript, Node, and Inquirer",
         "site": "https://github.com/TrueMiguel/09-README-Generator",
         "image": "images/readme.png"
     },
@@ -20,7 +20,7 @@ export default [
         "id": 3,
         "name": "Social Network API",
         "alt-name": "social network api",
-        "built-with": "Node, JavaScript, Express, MongoDB, Mongoose, Luxon, Nodemon, MongoDB Compass, Insomnia",
+        "builtWith": "Node, JavaScript, Express, MongoDB, Mongoose, Luxon, Nodemon, MongoDB Compass, Insomnia",
         "site": "https://github.com/TrueMiguel/18-A-Social-Network-API",
         "image": "images/social-network.png"
     },
@@ -28,7 +28,7 @@ export default [
         "id": 4,
         "name": "Movie Reels (A watch later movie list)",
         "alt-name": "Movie Reels",
-        "built-with": "HTML, CSS, jQuery, Bulma, API( Youtube and IMDB)",
+        "builtWith": "HTML, CSS, jQuery, Bulma, API( Youtube and IMDB)",
         "site": "https://auom-eisiad.github.io/Movie-Reels/moviereels.html",
         "image": "images/Project_1.JPG"
     },
@@ -36,9 +36,17 @@ export default [
         "id": 5,
         "name": "Commode Critic (A public bathroom review and rating app)",
         "alt-name": "Commode Critic",
-        "built-with": "Handlebars, CSS, Node, JavaScript, API (Google Maps)",
+        "builtWith": "Handlebars, CSS, Node, JavaScript, API (Google Maps)",
         "site": "https://commode-critic-8a47383c76b7.herokuapp.com/",
         "image": "images/Project_2.png"
+    },
+    {
+        "id": 6,
+        "name": "Christmas Cookie Clicker (A cookie clicker app",
+        "alt-name": "Christmas Clicker",
+        "builtWith": "React, JavaScript, CSS, HTML, ChatGPT, Handlebars",
+        "site": "https://christmas-cookie-clicker.onrender.com/",
+        "image": "images/Project_3.png"
     },
 ]
 
